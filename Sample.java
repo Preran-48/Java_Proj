@@ -4,6 +4,6 @@ class Sample
     {
       System.out.println("Hello  World!"); 
       System.out.println("Welcome to DevOps");
-      System.out.println("enabled webhook")
+      System.out.println("enabled webhook");
     }
   }
