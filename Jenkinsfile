@@ -2,9 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('C&R') {
             steps {
-                echo 'Hello World'
+                bat '''javac Sample.java
+                       java Sample'''
             }
         }
     }
