@@ -4,7 +4,6 @@ class Sample
     {
      System.out.println("Welcome to DevOps");
      System.out.println("Hello from Jenkins");
-     System.out.println("triggering build automatically, using poll scm");
     }
   }
 
